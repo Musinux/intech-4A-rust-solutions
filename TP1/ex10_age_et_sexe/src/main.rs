@@ -1,7 +1,5 @@
 use std::io;
 
-const MAX_POINTS: u32 = 100_000;
-
 fn enter_number(to_enter: &str) -> i32 {
     let mut y = String::new();
 
